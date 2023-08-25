@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-4bw+/aepP/YC94hEpVNVgiZdgIC5+VKNBQNGCHeKRQN+PtmoHDEXuppvnDJzQIu9" crossorigin="anonymous">
+    <link rel="stylesheet" href="./assets/css/style.css">
+    <title>Mi Página Web</title>
+</head>
+
+<body>
+    <header class="sticky-top">
+        <nav class="navbar navbar-expand-md bg-body-tertiary fondo-personalizado" data-bs-theme="dark">
+            <div class="container-fluid">
+                <img src=" " style="width: 40px;">
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                    aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse" id="navbarNav">
+                    <ul class="navbar-nav">
+                        <li class="nav-item">
+                            <a class="nav-link" aria-current="page" href="#sobreMi">Sobre Mi</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="redireccion.html">Portafolio</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" id="link-comuniquemonos" href="#comuniquemonos">Comuniquemonos</a>
+                        </li>
+                        <li><a href="https://www.tiktok.com/es/"><img src="./assets/img/TicTok.png" alt="TicTok"
+                                    style="width: 20px"></a></li>
+                        <li><a href="https://www.twitter.com"><img src="./assets/img/ITwitter.png" alt="Twitter"
+                                    style="width: 20px"></a></li>
+                    </ul>
+                </div>
+            </div>
+        </nav>
+    </header>
+    <div class="card text-bg-dark">
+        <img src="./assets/img/Diseño sin título.png" class="card-img" alt="...">
+        <div class="card-img-overlay">
+            <h5 class="card-title">Sobre Mi</h5>
+            <p class="card-text">Profesional y Creativo <br>Iniciando cómo desarrollador</p>
+            <h5 class="card-title">Experiencia</h5>
+            <p>Trabaja diferentes proyectos de desarrollo.</p>
+            <h5 class="card-title">Logros Notables Para Compartir</h5>
+            <p>Me apasiona la tecnología sobre todo el área del desarrollo, se convirtió en un desafío personal <br>
+            ya que soy de profesión electrónico, me ha tocado trabajar diferentes tipos de proyectos utilizado <br>
+            lenguajes como HTML, CSS, JS</p>
+            <p class="card-text"><small></small></p>
+        </div>
+    </div>
+
+    <section id="comuniquemonos" class="container" style="display: none">
+        <form class="contenedor-formulario bg-secondary mx-0 mx-md-5 my-3 px-4 px-md-0 py-4">
+            <h3 class="text-white text-center">Comuniquemonos</h3>
+            <div class="row">
+                <div class="col-12 col-md-4 offset-md-4 text-center">
+                    <label for="txt-nombre" class="text-white form-label">Nombre</label>
+                    <input class="form-control" id="txt-nombre" type="text">
+                </div>
+                <div class="col-12 col-md-4 offset-md-4 mt-2 text-center">
+                    <label for="txt-correo" class="text-white form-label">Correo</label>
+                    <input class="form-control" id="txt-correo" type="text">
+                </div>
+                <div class="col-12 col-md-4 offset-md-4 mt-2 text-center">
+                    <label for="txt-telefono" class="text-white form-label">Teléfono</label>
+                    <input class="form-control" id="txt-telefono" type="text">
+                </div>
+                <div class="col-12 col-md-4 offset-md-4 mt-2 text-center">
+                    <label for="txt-motivo" class="text-white form-label">Motivo</label>
+                    <input class="form-control" id="txt-motivo" type="text">
+                </div>
+                <div class="col-12 col-md-4 offset-md-4 mt-2 text-center">
+                    <textarea class="form-control" id="mensaje" cols="30" rows="7"></textarea>
+
+                </div>
+                <div class="col-12 col-md-4 offset-md-4 mt-2 text-center">
+                    <button type="button" class="btn btn-light">Enviar</button>
+                </div>
+            </div>
+        </form>
+    </section>
+
+    <footer>
+        <section class="container">
+            <Div>
+                <p>Dirección: Calle Principal, Valparaíso, Chile</p>
+                <p>Teléfono: 56-32-2256-7890</p>
+                <p>Email: info@email.com</p>
+                <p>&copy; 2023 Mi Empresa. Todos los derechos reservados.</p>
+            </Div>
+            <div class="social-links">
+                <a href="https://www.tiktok.com/es/"><img src="./assets/img/TicTok.png" alt="TicTok"
+                        style="width: 20px"></a>
+                <a href="https://www.twitter.com"><img src="./assets/img/ITwitter.png" alt="Twitter"
+                        style="width: 20px"></a>
+            </div>
+        </section>
+    </footer>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.1/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-HwwvtgBNo3bZJJLYd8oVXjrBZt8cqVSpeBNS5n7C8IVInixGAoxmnlMuBnhbgrkm"
+        crossorigin="anonymous"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+
+</html>

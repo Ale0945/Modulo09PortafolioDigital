@@ -1,0 +1,61 @@
+body {
+    background-color: rgb(35, 187, 187);
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar {
+    list-style: none;
+    background-color: grey;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li {
+    float: left;
+    margin-right: 20px;
+}
+
+.navbar li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#comuniquemonos-link.active {
+    font-weight: bold;
+  }
+
+.card-img-overlay {
+    color: black;
+    text-align: left;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+.social-links {
+    float: right;
+    margin-top: 10px;
+}
+
+.social-links a {
+    margin-right: 10px;
+}
+
+/* Estilos de las secciones */
+section {
+    padding: 50px;
+}
+
+/* Estilos del footer */
+footer {
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 20px;
+}
+
